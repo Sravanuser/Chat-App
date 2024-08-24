@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home{
+  display: flex;
+}
+
+.login {
+  height: 100vh;
+  width: 100%;
+  background: rgba(217, 9, 9, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid purple;
+  padding: 0px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+button {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: rgb(90, 90, 220);
+  color: rgb(255, 255, 255, 0.9);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 18px;
+}
+
+.log {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.sign {
+  height: 430px;
+}
+
+input[type="file"] {
+  padding: 5px;
+}
+
+.checkbox,span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  justify-content: space-evenly;
+}
+
+.checks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}

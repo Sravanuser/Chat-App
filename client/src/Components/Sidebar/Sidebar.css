@@ -1,0 +1,85 @@
+.sidebar {
+    width: 330px;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    background: rgb(162, 242, 162);
+    overflow-y: scroll;
+    position: relative;
+    cursor: pointer;
+}
+
+.user {
+    width: 100%;
+    height: 60px;
+    background: rgb(181, 181, 246);
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.user:hover {
+    background-color: rgb(19, 185, 240);
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid black;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.search1 {
+    background-color: transparent;
+}
+
+.profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.logout {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+.conversation {
+    width: 100%;
+    display: flex;
+    background: pink;
+}
+
+.conversation .chats {
+    width: 100%;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    gap: 10px;
+    text-align: center;
+}
